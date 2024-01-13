@@ -8,6 +8,8 @@
             int var = 10;
             Console.WriteLine(var);
             Console.ReadLine();
+            int var2 = 10;
+            Console.WriteLine(var2);
         }
     }
 }
