@@ -1,0 +1,15 @@
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\sizeof\sizeof\obj\Debug\net6.0\sizeof.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\sizeof\sizeof\obj\Debug\net6.0\sizeof.AssemblyInfoInputs.cache
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\sizeof\sizeof\obj\Debug\net6.0\sizeof.AssemblyInfo.cs
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\sizeof\sizeof\obj\Debug\net6.0\sizeof.csproj.CoreCompileInputs.cache
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\sizeof\sizeof\obj\Debug\net6.0\sizeof.sourcelink.json
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\sizeof\sizeof\bin\Debug\net6.0\sizeof.exe
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\sizeof\sizeof\bin\Debug\net6.0\sizeof.deps.json
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\sizeof\sizeof\bin\Debug\net6.0\sizeof.runtimeconfig.json
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\sizeof\sizeof\bin\Debug\net6.0\sizeof.dll
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\sizeof\sizeof\bin\Debug\net6.0\sizeof.pdb
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\sizeof\sizeof\obj\Debug\net6.0\sizeof.dll
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\sizeof\sizeof\obj\Debug\net6.0\refint\sizeof.dll
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\sizeof\sizeof\obj\Debug\net6.0\sizeof.pdb
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\sizeof\sizeof\obj\Debug\net6.0\sizeof.genruntimeconfig.cache
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\sizeof\sizeof\obj\Debug\net6.0\ref\sizeof.dll

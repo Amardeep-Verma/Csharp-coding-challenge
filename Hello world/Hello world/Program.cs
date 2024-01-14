@@ -4,12 +4,20 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-            int var = 10;
-            Console.WriteLine(var);
+            //declaring a variable 
+            int num1;
+            //assigning a value to variable
+            num1 = 13;
+
+            //declaring and initializing a variable in one go 
+            int num2 = 23;
+            int sum = num1 + num2;
+
+            //using concatination
+            Console.WriteLine("num1 + "+ num1 + " num2 "+num2 + " is:" +sum);
             Console.ReadLine();
-            int var2 = 10;
-            Console.WriteLine(var2);
+
+
         }
     }
 }
