@@ -83,3 +83,80 @@ namespace HelloWorld
         }
     }
 }
+
+/*
+  C# Coding Standards and Best Practices
+
+CLASS NAMES ----
+   # do use PascalCasing for class names and method names.
+    
+        ex- public class ClientActivity
+        {
+            public void  ClearStatistics()
+             {
+                   ....
+             }
+             public void CalculateStatistics()
+             {
+                    ....
+             }
+           }
+   
+
+VARIABLE NAMES ---
+ # do use camelCasing for local variables and method arguments.
+    
+        ex-  int itemCount
+
+IDENTIFIERS ---
+ # do not use Hungarian notation or any other type identification in identifiers
+
+            Correct --
+                    int counter;
+                    string  name;
+
+            Avoid --
+                    int iCounter;
+                    string strName;
+
+CONSTANTS ---
+ # do not use Screaming Caps for constants or readonly  variables
+
+            Correct --
+                    public static const string ShippingType = "DropShip";
+            Avoid --
+                    public static const string SHIPPINGTYPE = "DropShip";
+
+ABBREVIATIONS ---
+# avoid using Abbreviations.
+Exception - abbreviations commonly used as names, such as Id,Xml,Ftp,Uri
+
+        Correct- 
+                UserGroup userGroup;
+                Assignment employeeAssignment;
+
+        Avoid -
+                UserGroup usrGrp;
+                Assignment empAssignment;
+
+        Exception -
+                CustomerId customerId;
+                XmlDocument xmlDocument;
+                FtpHelper ftpHelper;
+                UriPart uriPart;
+
+
+NO UNDERSCORES -- 
+  do not use Underscores in identifiers.
+Exception: you can use prefix private static variable with an underscore.
+
+        Correct
+            public DateTime clientAppointment;
+            public TimeSpan timeLeft;
+
+        Avoid
+            public DateTime client_Appointment;
+            public TimeSpan time_Left;
+
+         Exception
+            private DateTime _registrationDate;
