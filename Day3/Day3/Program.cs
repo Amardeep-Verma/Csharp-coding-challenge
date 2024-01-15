@@ -42,3 +42,44 @@ Console.WriteLine("ASCII value of the entered number is :{0}", asciivalue);
  4. Console.ReadLine() - Takes a string or integer input and returns it as the Output value 
  5. Console.ReadKey() - Takes a single input of type string and it returns the Key Info.
 */
+
+/*Sample Code- Write and WriteLine Method 
+
+
+{
+    Console.WriteLine("HELLO WELCOME"); //prints the text and jumps to a new line.
+    Console.Write("HELLO"); //prints the text in the same line.
+    Console.Write("WELCOME");
+    Console.ReadKey();
+}
+*/
+
+using System;
+namespace HelloWorld
+{   //class names like ClientActivity
+  
+    class Program
+    {
+        //Method name like CalculateValue
+        //method arguments like firstNumber
+        static void Main(string[] args)
+        {
+            // local variables like itemCount
+
+            // use userControl instead of useCtr
+
+            // don't use number at the start of variable names
+
+            //Correct
+            string myName;
+            int lastNum;
+            bool isSaved;
+           
+            //Avoid
+            // String myName;
+            // Int32 lastNum;
+            // Boolean isSaved;
+
+        }
+    }
+}
