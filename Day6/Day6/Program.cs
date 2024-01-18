@@ -23,7 +23,7 @@
         }
     }
 }
-*/
+
 
 // Program to Swap two Numbers
 {
@@ -39,4 +39,42 @@
     Console.Write("\nFirst Number : " + num1);
     Console.Write("\nSecond Number : " + num2);
     Console.Read();
+}
+
+
+{
+    int temperature = 25;
+
+    if (temperature <10)
+    {
+        Console.WriteLine("Take the coat");
+    }
+    if (temperature == 10)
+    {
+        Console.WriteLine("It's 10 degrees");
+    }
+    if (temperature > 10)
+    {
+        Console.WriteLine("Cozy and warm");
+    }
+}
+ 
+*/
+
+{
+    Console.WriteLine("Enter Today's Temperature");
+    string temperature = Console.ReadLine();
+    int numTemp = Int32.Parse(temperature);
+    if (numTemp < 10)
+    {
+        Console.WriteLine("Take the coat");
+    }
+    if (numTemp == 10)
+    {
+        Console.WriteLine("Pants and Pull Over should be fine");
+    }
+    if (numTemp > 10)
+    {
+        Console.WriteLine("Shorts are enough today");
+    }
 }
