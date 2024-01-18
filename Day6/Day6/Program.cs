@@ -59,7 +59,7 @@
     }
 }
  
-*/
+
 
 {
     Console.WriteLine("Enter Today's Temperature");
@@ -77,4 +77,65 @@
     {
         Console.WriteLine("Shorts are enough today");
     }
+}
+
+
+{
+    Console.WriteLine("Enter your age");
+    string age = Console.ReadLine();
+    int ageInt = Int32.Parse(age);
+    if (ageInt>=18)
+    {
+        Console.WriteLine("you can vote");
+    }
+    if (ageInt<18)
+    {
+        Console.WriteLine("You cannot vote ");
+    }
+    
+}        The above program is not the proper approach
+
+{
+    Console.WriteLine("Enter your age");
+    string age = Console.ReadLine();
+    int ageInt = int.Parse(age);
+    if(ageInt >=18)
+    {
+        Console.WriteLine("You can vote");
+    }
+    else
+    {
+        Console.WriteLine("You cannot vote");
+    }
+}
+
+
+// TRY PARSE METHOD -- coverting strings into numeric data types
+// by using the TryParse() method we can convert a string like "128" into a numeric data type like an integer
+
+// TryParse() often gets used when the user submits input
+
+// 1. We need a string
+{
+    string numberAsString = "128";
+    int parsedValue;
+    bool success = int.TryParse(numberAsString, out parsedValue);
+    // The returned boolean is true when parsing was successful
+    if (success)
+        Console.WriteLine("Parsing successful-number is" + parsedValue);
+    else Console.WriteLine("Parsing failed");
+}
+*/
+
+// float.TryParse
+
+{
+    string numberAsString = "128";
+    float parsedValue;
+
+    bool success = float.TryParse(numberAsString, out parsedValue);
+    if (success)
+        Console.WriteLine("Parsing successful- number is ", parsedValue);
+    else
+        Console.WriteLine("Parsing failed");
 }
