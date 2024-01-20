@@ -95,23 +95,8 @@ using System;
         }
     }
 }
-In this simple program, the user is prompted to choose a number between 1 and 3. The program then uses a switch-case statement to perform different actions based on the user's choice. If the user enters a number outside the specified range, a default case handles the invalid input.
 
 
-
-
-User
-program to determine month name using switch case
-ChatGPT
-Certainly!Here's a simple C# program that uses a switch-case statement to determine the month name based on the user's input:
-
-csharp
-Copy code
-using System;
-
-class MonthNameProgram
-{
-    static void Main()
     {
         Console.Write("Enter the month number (1-12): ");
         int monthNumber = int.Parse(Console.ReadLine());
