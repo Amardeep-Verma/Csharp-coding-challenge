@@ -1,0 +1,15 @@
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\Day9\Day9\bin\Debug\net6.0\Day9.exe
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\Day9\Day9\bin\Debug\net6.0\Day9.deps.json
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\Day9\Day9\bin\Debug\net6.0\Day9.runtimeconfig.json
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\Day9\Day9\bin\Debug\net6.0\Day9.dll
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\Day9\Day9\bin\Debug\net6.0\Day9.pdb
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\Day9\Day9\obj\Debug\net6.0\Day9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\Day9\Day9\obj\Debug\net6.0\Day9.AssemblyInfoInputs.cache
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\Day9\Day9\obj\Debug\net6.0\Day9.AssemblyInfo.cs
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\Day9\Day9\obj\Debug\net6.0\Day9.csproj.CoreCompileInputs.cache
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\Day9\Day9\obj\Debug\net6.0\Day9.sourcelink.json
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\Day9\Day9\obj\Debug\net6.0\Day9.dll
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\Day9\Day9\obj\Debug\net6.0\refint\Day9.dll
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\Day9\Day9\obj\Debug\net6.0\Day9.pdb
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\Day9\Day9\obj\Debug\net6.0\Day9.genruntimeconfig.cache
+C:\Users\Amardeep\OneDrive\Documents\My WorkSpace\Csharp-coding-challenge\Day9\Day9\obj\Debug\net6.0\ref\Day9.dll
