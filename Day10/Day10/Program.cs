@@ -122,6 +122,8 @@ while (condition)
 */
 // example
 
+using System.Text.Json.Serialization;
+
 {
     int count = 0;
 
@@ -150,7 +152,53 @@ while (condition)
 
 }
 
+// Break and Continue
 
+// continue = skips rest of code & forces the next iteration of the loop
+// break = exits a loop/ switch
 
+{
+    for (int i = 1; i <= 20 ; i++)
+    {
+        if (i == 13)
+        {
+            continue;
+        }
+        Console.WriteLine(i);
+    }
+}
 
+{
+    for (int j = 1;j <= 20 ; j++)
+    {
+        if (j == 13)
+        {
+            break;
+        }
+        Console.WriteLine(j);
+    }
+}
+{
+    int i = -10;
+
+    while (true)
+    {
+        if (i % 3 == 0)
+        {
+            i++;
+            continue;
+        }
+        if (i == 10)
+        {
+            break;
+        }
+        // TODO
+        if (i == 11)
+        {
+            Console.WriteLine(" FINAL BREAK REACHED! This should not happen!");
+            break;
+        }
+        Console.WriteLine(i++);
+    }
+}
 
