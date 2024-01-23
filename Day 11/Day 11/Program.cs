@@ -211,6 +211,8 @@ using System.Net.Http.Headers;
 // program that takes two numbers and an arithmetic operator from the user 
 // as input and performs the operation 
 
+using System.Globalization;
+
 {
     Console.Write("Enter the first number : ");
     double num1 = Convert.ToDouble(Console.ReadLine());
@@ -252,4 +254,26 @@ using System.Net.Http.Headers;
                 return;
     }
     Console.WriteLine($"Result : {num1} {operatorChar} {num2} = {result}");
+}
+
+// program that takes integer from user and calculate the sum of its digits 
+
+
+{
+    Console.WriteLine("Enter an integer : ");
+    int num = Convert.ToInt32(Console.ReadLine());
+
+    // calculating the sum of digits 
+    int absNum = Math.Abs(num); // Ensures the number is non - negative for the loop 
+    int sumDigits = 0;
+
+    while (absNum > 0)
+    {
+        // extracting the last digit and adding it to the sum 
+        sumDigits += absNum % 10;
+
+        // removing the last digit from the number
+        absNum /= 10;
+    }
+    Console.WriteLine($"Sum of digiits of {num}:{sumDigits}");
 }
