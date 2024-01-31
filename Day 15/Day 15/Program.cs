@@ -175,7 +175,7 @@ namespace program
     }
 }
 
-*/
+
 
 using System;
 
@@ -206,6 +206,151 @@ namespace program
             else
             {
                 Console.WriteLine("Invalid input. Please enter a valid integer.");
+            }
+        }
+    }
+}
+
+
+
+// program to find largest of two numbers 
+
+using System;
+using System.Net.WebSockets;
+using System.Transactions;
+namespace practice
+{
+    class programs
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter first number: ");
+            int number1= int.Parse(Console.ReadLine());
+            Console.Write("Enter second number: ");
+            int number2 = int.Parse(Console.ReadLine());    
+
+            if(number1 > number2)
+            {
+                Console.WriteLine($"{number1} is greater than {number2}");
+
+            }else if(number1 < number2)
+            {
+                Console.WriteLine($"{number2} is greater than {number1} ");
+
+            }else if (number1 == number2)
+            {
+                Console.WriteLine("Both numbers are equal");
+            }
+            else
+            {
+                Console.WriteLine();
+            }
+        }
+    }
+}
+
+
+
+using System;
+
+namespace practice
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter first number: ");
+            string input1 = Console.ReadLine();
+
+            Console.Write("Enter second number: ");
+            string input2 = Console.ReadLine();
+
+            if (int.TryParse(input1, out int number1) && int.TryParse(input2, out int number2))
+            {
+                if (number1 > number2)
+                {
+                    Console.WriteLine($"{number1} is greater than {number2}");
+                }
+                else if (number1 < number2)
+                {
+                    Console.WriteLine($"{number2} is greater than {number1}");
+                }
+                else
+                {
+                    Console.WriteLine("Both numbers are equal");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Invalid input. Please enter valid integers.");
+            }
+        }
+    }
+}
+
+
+
+
+// program to swap two numbers
+
+using System;
+
+namespace swap
+{
+    class Swapping
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter first number: ");
+            string num1 = Console.ReadLine();
+
+            Console.Write("Enter second number: ");
+            string num2 = Console.ReadLine();
+
+            if (int.TryParse(num1, out int number1) && int.TryParse(num2, out int number2))
+            {
+                // Swapping the values using a temporary variable
+                int temp = number1;
+                number1 = number2;
+                number2 = temp;
+
+                Console.WriteLine($"After swapping: First number = {number1}, Second number = {number2}");
+            }
+            else
+            {
+                Console.WriteLine("Invalid input. Please enter valid integers.");
+            }
+        }
+    }
+}
+
+*/
+
+// program to swap two numbers without using third varibale
+using System;
+
+namespace program
+{
+    class practice
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter first number: ");
+            string num1 = Console.ReadLine();
+            Console.Write("Enter second number: ");
+            string num2 = Console.ReadLine();
+
+            if (int.TryParse(num1, out int number1) && int.TryParse(num2, out int number2))
+            {
+                number1 = number1 + number2;
+                number2 = number1 - number2;
+                number1 = number1 - number2;
+
+                Console.WriteLine("Swapped values are {0} and {1}", number1, number2);
+            }
+            else
+            {
+                Console.WriteLine("Invalid input. Please enter valid integers.");
             }
         }
     }
