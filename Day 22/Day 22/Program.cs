@@ -63,3 +63,48 @@ using System.Globalization;
 }
 
 */
+
+    {
+        int count = 10;
+        while (count > 0)
+        {
+            Console.WriteLine(count);
+            count--;
+        }
+        Console.WriteLine("Blast off!");
+    }
+
+
+{
+    int sum = 0;
+    int i = 1;
+    while (i <= 10)
+    {
+        sum += i;
+        i++;
+    }
+    Console.WriteLine("Sum of numbers 1 to 10: " + sum);
+}
+
+
+{
+    int num = 2;
+    while (num <= 20)
+    {
+        Console.WriteLine(num);
+        num += 2;
+    }
+}
+
+{ 
+
+int number = 5;
+int factorial = 1;
+int i = 1;
+while (i <= number)
+{
+    factorial *= i;
+    i++;
+}
+Console.WriteLine("Factorial of " + number + " is: " + factorial);
+    }
