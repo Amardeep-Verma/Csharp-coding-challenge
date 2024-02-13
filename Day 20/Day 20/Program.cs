@@ -33,7 +33,7 @@ Class Syntax -- [access modifier] - [class] - [identifier]
 
 
 
-*/
+
 using System;
 using System.ComponentModel;
 namespace Calculator
@@ -70,5 +70,33 @@ namespace Calculator
             obj1.add();
             obj1.subtraction();
         }
+    }
+}
+*/
+
+// program to read grade and display the equivalent description
+
+{
+    char grade;
+    Console.WriteLine("Enter the Grae in Uppercase\n");
+    grade = Convert.ToChar(Convert.ToInt32(Console.ReadLine()));
+    switch (grade)
+    {
+        case 'S':
+            Console.WriteLine("Super");
+            break;
+        case 'A':
+            Console.WriteLine("Very good");
+            break;
+        case 'B':
+            Console.WriteLine("Fair");
+            break;
+        case 'Y':
+            Console.WriteLine("Absent");
+            break;
+        case 'F':
+            Console.WriteLine("Error in grade ");
+            break;
+
     }
 }

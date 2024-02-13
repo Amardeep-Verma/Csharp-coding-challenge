@@ -63,7 +63,7 @@ Display its Largest Factor
     Console.ReadLine();
 }
 
-*/
+
 
 {
     int num, sum = 0, r;
@@ -119,4 +119,102 @@ public void leap()
         Console.WriteLine("{0} is not a Leap Year", y);
     }
     Console.ReadLine();
+}
+
+
+
+using System;
+using System.Globalization;
+namespace vowel
+{
+    class consonant
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter a character ");
+            char ch = char.Parse(Console.ReadLine());
+            if (ch == 'a' || ch == 'e' || ch =='i' || ch == '0' || ch== 'u')
+            {
+                Console.WriteLine($"{ch} is a vowel ");
+              
+            }
+            else
+            {
+                Console.WriteLine("It is consonant");
+            }
+        }
+    }
+}
+*/
+using System;
+
+class Calculator
+{
+    static void Main()
+    {
+        Console.WriteLine("Simple Calculator");
+
+        while (true)
+        {
+            Console.Write("Enter the first number: ");
+            if (!double.TryParse(Console.ReadLine(), out double num1))
+            {
+                Console.WriteLine("Invalid input. Please enter a valid number.");
+                continue;
+            }
+
+            Console.Write("Enter the operator (+, -, *, /): ");
+            char operation = Console.ReadKey().KeyChar;
+            Console.WriteLine(); // Move to the next line after reading the operator.
+
+            Console.Write("Enter the second number: ");
+            if (!double.TryParse(Console.ReadLine(), out double num2))
+            {
+                Console.WriteLine("Invalid input. Please enter a valid number.");
+                continue;
+            }
+
+            double result = 0;
+
+            // Perform the calculation based on the operator
+            switch (operation)
+            {
+                case '+':
+                    result = num1 + num2;
+                    break;
+                case '-':
+                    result = num1 - num2;
+                    break;
+                case '*':
+                    result = num1 * num2;
+                    break;
+                case '/':
+                    if (num2 != 0)
+                    {
+                        result = num1 / num2;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Cannot divide by zero. Please enter a non-zero divisor.");
+                        continue;
+                    }
+                    break;
+                default:
+                    Console.WriteLine("Invalid operator. Please enter a valid operator (+, -, *, /).");
+                    continue;
+            }
+
+            Console.WriteLine($"Result: {num1} {operation} {num2} = {result}");
+
+            Console.Write("Do you want to perform another calculation? (y/n): ");
+            char continueChoice = Console.ReadKey().KeyChar;
+
+            if (continueChoice != 'y')
+            {
+                break;
+            }
+
+            Console.WriteLine(); // Move to the next line after reading the continue choice.
+        }
+    }
 }

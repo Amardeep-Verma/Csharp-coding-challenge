@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoopingConstructs", "LoopingConstructs\LoopingConstructs.csproj", "{36C9AC43-7B91-40F4-8B47-C474A1B0C23D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelperClass", "HelperClass\HelperClass.csproj", "{0A136295-40AB-4FD8-A5F3-225B848C3CF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36C9AC43-7B91-40F4-8B47-C474A1B0C23D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C9AC43-7B91-40F4-8B47-C474A1B0C23D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C9AC43-7B91-40F4-8B47-C474A1B0C23D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36C9AC43-7B91-40F4-8B47-C474A1B0C23D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A136295-40AB-4FD8-A5F3-225B848C3CF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A136295-40AB-4FD8-A5F3-225B848C3CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A136295-40AB-4FD8-A5F3-225B848C3CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A136295-40AB-4FD8-A5F3-225B848C3CF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E4687E1-021A-416E-8AEA-6225784C3F44}
+	EndGlobalSection
+EndGlobal

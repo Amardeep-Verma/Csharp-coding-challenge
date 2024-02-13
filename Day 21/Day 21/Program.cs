@@ -1,45 +1,16 @@
-﻿/*namespace Day_21
+﻿using System;
+class Program
 {
-    internal class Program
+    public void Main(string[] args)
     {
-        static void Main(string[] args)
+        Console.Write("Enter any number :");
+        int n = int.Parse(Console.ReadLine());
+        if (n % 2 == 0)
         {
-            for(int i = 1; i <=5; i++)
-            {
-                for (int j = 1; j <=i; j++)
-                {
-                    Console.Write(j);
-                }
-                Console.WriteLine();
-            }
+            Console.WriteLine($"{n} is even");
+        }else
+        {
+            Console.WriteLine("Number is odd");
         }
-    }
-}
-
-*/
-
-
-using Day_21;
-
-{
-    // a class in C# is a blueprint for creating objects.
-    // it defines a set of properties (data attributes)
-    // and methods (functions) that an object of that class will have
-
-    Car audi = new Car();
-    audi.Drive();
-
-    Car bmw = new Car();
-    bmw.Drive();
-
-    Console.WriteLine("Press 1 to stop the car");
-    string userInput = Console.ReadLine();
-    if(userInput == "1")
-    {
-        audi.Stop();
-    }
-    else
-    {
-        Console.WriteLine("Car drives indefinetely");
     }
 }

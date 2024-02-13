@@ -244,3 +244,12 @@ class Program
     }
 }
 */
+{
+    Console.WriteLine("Enter your age");
+    int age = int.Parse(Console.ReadLine());
+    switch (age > 18)
+    {
+       
+    }
+       
+}

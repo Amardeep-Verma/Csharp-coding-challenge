@@ -19,7 +19,7 @@ namespace Operator
             Console.WriteLine("num3 is {0}",num3); //-5
 
             bool isSunny = true;
-            Console.WriteLine("is it sunny? {0}", !isSunny);  //false
+            Console.WriteLine("is it sunny? {0}", isSunny);  //false
 
             // increment operators
             int num = 0;

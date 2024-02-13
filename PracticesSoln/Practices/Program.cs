@@ -81,8 +81,20 @@ namespace Practices
                 float index = float.Parse(Console.ReadLine());
                 var BmIndex = BmI.BodyMassIndex(index);
                 Console.WriteLine("Your BMI is " + BmIndex);
-            
 
+            {
+                int resultAdd = Calculator.Add(5, 3);
+                Console.WriteLine("Addition result: " + resultAdd);
+
+                int resultSubtract = Calculator.Subtract(8, 3);
+                Console.WriteLine("Subtraction result: " + resultSubtract);
+
+                int resultMultiply = Calculator.Multiply(4, 6);
+                Console.WriteLine("Multiplication result: " + resultMultiply);
+
+                double resultDivide = Calculator.Divide(10, 2);
+                Console.WriteLine("Division result: " + resultDivide);
+            }
 
         }
 

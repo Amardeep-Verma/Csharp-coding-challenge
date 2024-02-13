@@ -324,7 +324,7 @@ namespace swap
     }
 }
 
-*/
+
 
 // program to swap two numbers without using third varibale
 using System;
@@ -351,6 +351,50 @@ namespace program
             else
             {
                 Console.WriteLine("Invalid input. Please enter valid integers.");
+            }
+        }
+    }
+}
+
+*/
+
+//  program to find sum of all numbers between any two numbers
+
+using System;
+
+namespace Problem
+{
+    class Practice
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter starting number: ");
+            string num1 = Console.ReadLine();
+            Console.Write("Enter ending number: ");
+            string num2 = Console.ReadLine();
+
+            if (int.TryParse(num1, out int startingNumber) && int.TryParse(num2, out int endingNumber))
+            {
+                int sum = 0;
+
+                
+                if (startingNumber <= endingNumber)
+                {
+                    for (int i = startingNumber; i <= endingNumber; i++)
+                    {
+                        sum += i;
+                    }
+
+                    Console.WriteLine($"Sum of numbers between {startingNumber} and {endingNumber}: {sum}");
+                }
+                else
+                {
+                    Console.WriteLine("Starting number should be less than or equal to ending number.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Invalid input. Please enter valid integers for starting and ending numbers.");
             }
         }
     }
