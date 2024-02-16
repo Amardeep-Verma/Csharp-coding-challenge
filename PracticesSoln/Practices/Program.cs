@@ -50,6 +50,8 @@ namespace Practices
             Console.WriteLine("Your tax is "+ tax + "%");
 
 
+            Console.WriteLine("");
+
             //Design a program that calculates the total cost of items purchased, applying discounts based on the quantity purchased.The rules are:
 
             // No discount for buying less than 5 items.
@@ -93,7 +95,23 @@ namespace Practices
                 Console.WriteLine("Multiplication result: " + resultMultiply);
 
                 double resultDivide = Calculator.Divide(10, 2);
+
+                
                 Console.WriteLine("Division result: " + resultDivide);
+
+
+                int n1 = 0, n2 = 1, n3, i, number;
+                Console.Write("Enter the number of elements:");
+                number = int.Parse(Console.ReadLine());
+                Console.Write(n1+""+n2+"");
+                for(i=2;i<number; i++)
+                {
+                    n3 = n1 + n2;
+                    Console.Write(n3+" ");
+                    n1= n2;
+                    n2 = n3;
+                }
+
             }
 
         }
