@@ -84,6 +84,22 @@ namespace Practices
                 var BmIndex = BmI.BodyMassIndex(index);
                 Console.WriteLine("Your BMI is " + BmIndex);
 
+
+            // factorial
+            {
+                int i, number, fact;
+                Console.WriteLine("Enter the Number");
+                number = int.Parse(Console.ReadLine());
+                fact = number;
+                for (i = number - 1; i >= 1; i--)
+                {
+                    fact = fact * i;
+                }
+                Console.WriteLine("\nFactorial of Given Number is: " + fact);
+            }
+
+
+
             {
                 int resultAdd = Calculator.Add(5, 3);
                 Console.WriteLine("Addition result: " + resultAdd);
@@ -112,9 +128,13 @@ namespace Practices
                     n2 = n3;
                 }
 
+
+
             }
 
         }
 
+
     }
+
 }
